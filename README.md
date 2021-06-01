@@ -1,7 +1,8 @@
 # orbitTDOAsignatures
-This repository about 'Orbit-based Authentication Using TDOA Signatures in Satellite Networks' belongs to the paper with the same name. Available at <TODO>.
+This repository about 'Orbit-based Authentication Using TDOA Signatures in Satellite Networks' belongs to the paper with the same name. Available at --link is coming--.
 
 ABSTRACT
+	
 Given the nature of satellites orbiting the Earth on a fixed trajectory, in principle, it is interesting to investigate how this invariant can be exploited for security purposes. In particular, satellite orbit information can be retrieved from public databases. Using time difference of arrival (TDOA) measurements from multiple receivers, we can check this orbit information against a corresponding TDOA-based signature of the satellite. In that sense, we propose an orbit-based authentication scheme for down-link satellite communications in this paper. To investigate the properties and fundamentals of our novel TDOA signature scheme we study two satellite systems at different altitudes: Iridium and Starlink.
 
 Clearly, many challenging questions with respect to the feasibility and effectiveness of this authentication scheme arise; to name some: how many receivers are necessary, how should they be distributed, and how many consecutive measurements do we need for the TDOA signatures. We address these questions by a full factorial experimental design using a simulation framework, we developed for that purpose. Besides a deep understanding about the effects of the major factors on the authentication performance, we find that in adequate configurations, even under a versatile attacker, the orbit-based authentication scheme is able to achieve low false authentication rates well below 1% at false rejection rates of about 2%, for both, Iridium and Starlink satellites.
@@ -11,6 +12,7 @@ This is the code that was used to simulate the satellites and their TDOA signatu
 Required software:
 - Python: numpy, sgp4 (https://pypi.org/project/sgp4/), astropy (https://www.astropy.org/), plotly (https://plotly.com/python/)
 - R
+	
 Usage:
 - The first experiment:
 	- This experiment generates the data, used for the ANOVA and figure 2.
